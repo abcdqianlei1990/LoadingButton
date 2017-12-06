@@ -17,7 +17,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv"
-        app:BtnText="click"
+        app:btnText="click"
         app:quickClickLimit="2000"
         android:layout_marginLeft="50dp"
         android:layout_marginRight="50dp"

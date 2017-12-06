@@ -65,7 +65,7 @@ public class LoadingButton extends RelativeLayout {
 
     public void initAttrs(Context context, AttributeSet attrs){
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.LoadingButton);
-        mBtnText = array.getString(R.styleable.LoadingButton_BtnText);
+        mBtnText = array.getString(R.styleable.LoadingButton_btnText);
         mQuickClickLimit = array.getInt(R.styleable.LoadingButton_quickClickLimit,QUICK_CLICK_LIMIT_DEFAULT);
         array.recycle();
         mBtn.setText(mBtnText);
