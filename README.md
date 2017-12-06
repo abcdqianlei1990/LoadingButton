@@ -22,3 +22,19 @@ dependencies {
 	        compile 'com.github.abcdqianlei1990:LoadingButton:1.2'
 	}
 ```
+
+## Sample
+```java
+mLoadingButton.setBtnOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mButton.startLoading();
+                mButton.postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        mButton.loadingComplete();
+                    }
+                },2000);
+            }
+        });
+```
