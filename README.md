@@ -1,6 +1,5 @@
-[![GitHub release](https://img.shields.io/github/release/abcdqianlei1990/LoadingButton.svg)](https://github.com/abcdqianlei1990/LoadingButton/releases)
-
 # LoadingButton
+[![GitHub release](https://img.shields.io/github/release/abcdqianlei1990/LoadingButton.svg)](https://github.com/abcdqianlei1990/LoadingButton/releases)
 带loading效果的button
 
 ## How To
