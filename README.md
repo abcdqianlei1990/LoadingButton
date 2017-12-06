@@ -2,6 +2,9 @@
 # LoadingButton
 带loading效果的button
 
+## showing
+![这里写图片描述](https://github.com/abdcqianlei1990/LoadintButton/raw/master/loadingButton.gif)
+
 ## How To
 ### Step 1. Add the JitPack repository to your build file
 ```groovy
