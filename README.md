@@ -2,7 +2,6 @@
 # LoadingButton
 带loading效果的button
 
-## showing
 ![image](https://raw.githubusercontent.com/abcdqianlei1990/LoadingButton/master/raw/loadintButton.gif)
 
 
