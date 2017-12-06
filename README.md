@@ -38,3 +38,8 @@ mLoadingButton.setBtnOnClickListener(new View.OnClickListener() {
             }
         });
 ```
+## Attrs
+name | note
+----|------
+btnText | button text  
+quickClickLimit | quick click limit  
