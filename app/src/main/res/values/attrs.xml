@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="LoadingButton">
+        <attr name="BtnText" format="string"/>
+        <attr name="quickClickLimit" format="integer"/>
+    </declare-styleable>
+</resources>
