@@ -18,7 +18,7 @@ allprojects {
 ### Step 2. Add the dependency
 ```groovy
 dependencies {
-	        compile 'com.github.abcdqianlei1990:LoadingButton:1.2'
+	        compile 'com.github.abcdqianlei1990:LoadingButton:1.3'
 	}
 ```
 
