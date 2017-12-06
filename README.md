@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg)]()
+[![GitHub release](https://img.shields.io/github/release/LoadingButton/rubidium.svg)]()
 
 # LoadingButton
 带loading效果的button
