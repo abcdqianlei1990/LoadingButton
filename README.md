@@ -3,7 +3,7 @@
 带loading效果的button
 
 ## showing
-![Image](LoadingButton/raw/loadintButton.gif)
+![image](LoadingButton/raw/loadintButton.gif)
 
 ## How To
 ### Step 1. Add the JitPack repository to your build file
