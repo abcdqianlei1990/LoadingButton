@@ -1,6 +1,6 @@
-# LoadingButton
 [![GitHub release](https://img.shields.io/github/release/abcdqianlei1990/LoadingButton.svg)](https://github.com/abcdqianlei1990/LoadingButton/releases)
-<br/>带loading效果的button
+# LoadingButton
+带loading效果的button
 
 ## How To
 ### Step 1. Add the JitPack repository to your build file
