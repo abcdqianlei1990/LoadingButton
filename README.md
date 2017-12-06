@@ -3,7 +3,7 @@
 
 ## How To
 ### Step 1. Add the JitPack repository to your build file
-```gradle
+```groovy
 allprojects {
 		repositories {
 			...
@@ -12,8 +12,8 @@ allprojects {
 	}
 ```
 ### Step 2. Add the dependency
-```gradle
+```groovy
 dependencies {
-	        compile 'com.github.abcdqianlei1990:Common-Upgrade:1.0.7'
+	        compile 'com.github.abcdqianlei1990:LoadingButton:1.2'
 	}
 ```
