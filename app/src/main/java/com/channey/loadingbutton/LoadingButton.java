@@ -47,9 +47,9 @@ public class LoadingButton extends RelativeLayout {
 
     public void initView(final Context context){
         View view = LayoutInflater.from(context).inflate(R.layout.widght_loading_btn,this,true);
-        mBtn = view.findViewById(R.id.loading_btn_content);
-        mNoticeTv =  view.findViewById(R.id.loading_btn_notice);
-        mLoadingView =  view.findViewById(R.id.loading_btn_loading_view);
+        mBtn = (TextView) view.findViewById(R.id.loading_btn_content);
+        mNoticeTv = (TextView) view.findViewById(R.id.loading_btn_notice);
+        mLoadingView = (TextView) view.findViewById(R.id.loading_btn_loading_view);
         mBtn.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
