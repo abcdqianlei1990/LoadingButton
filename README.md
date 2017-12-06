@@ -3,7 +3,6 @@
 带loading效果的button
 
 ![image](https://raw.githubusercontent.com/abcdqianlei1990/LoadingButton/master/raw/loadintButton.gif)
-![image](LoadingButton/raw/loadintButton.gif)
 
 
 ## How To
