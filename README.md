@@ -1,4 +1,4 @@
-[![GitHub release](https://img.shields.io/github/release/LoadingButton/LoadingButton.svg)]() [![GitHub package version](https://img.shields.io/github/package-json/v/badges/shields.svg)]()
+[![GitHub release](https://img.shields.io/github/release/LoadingButton/LoadingButton.svg)](https://github.com/abcdqianlei1990/LoadingButton/releases) [![GitHub package version](https://img.shields.io/github/package-json/v/badges/shields.svg)]()
 
 # LoadingButton
 带loading效果的button
