@@ -8,6 +8,7 @@ import android.view.View;
 import android.view.animation.Animation;
 import android.view.animation.LinearInterpolator;
 import android.view.animation.RotateAnimation;
+import android.widget.FrameLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
@@ -19,6 +20,7 @@ import android.widget.TextView;
 
 public class LoadingButton extends RelativeLayout {
     private static final String TAG = "LoadingBtn";
+    private FrameLayout mWrapper;
     private TextView mBtn;
     private TextView mLoadingView;
     private TextView mNoticeTv;
@@ -27,6 +29,7 @@ public class LoadingButton extends RelativeLayout {
     private static final int QUICK_CLICK_LIMIT_DEFAULT = 2000; //unit:ms
     private String mBtnText;
     private int mQuickClickLimit; //unit:ms
+    private int mBackgroundRes;
 
     public LoadingButton(Context context) {
         super(context);
@@ -47,6 +50,7 @@ public class LoadingButton extends RelativeLayout {
 
     public void initView(final Context context){
         View view = LayoutInflater.from(context).inflate(R.layout.widght_loading_btn,this,true);
+        mWrapper = (FrameLayout) view.findViewById(R.id.loading_btn_wrapper);
         mBtn = (TextView) view.findViewById(R.id.loading_btn_content);
         mNoticeTv = (TextView) view.findViewById(R.id.loading_btn_notice);
         mLoadingView = (TextView) view.findViewById(R.id.loading_btn_loading_view);
@@ -67,8 +71,10 @@ public class LoadingButton extends RelativeLayout {
         TypedArray array = context.obtainStyledAttributes(attrs, R.styleable.LoadingButton);
         mBtnText = array.getString(R.styleable.LoadingButton_btnText);
         mQuickClickLimit = array.getInt(R.styleable.LoadingButton_quickClickLimit,QUICK_CLICK_LIMIT_DEFAULT);
+        mBackgroundRes = array.getResourceId(R.styleable.LoadingButton_bg,R.color.blue_2f89f9);
         array.recycle();
         mBtn.setText(mBtnText);
+        mWrapper.setBackgroundResource(mBackgroundRes);
     }
     public void startLoading(){
         mBtn.setVisibility(View.GONE);
