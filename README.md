@@ -42,3 +42,4 @@ mLoadingButton.setBtnOnClickListener(new View.OnClickListener() {
 |:----|:------|
 |btnText|button text|
 |quickClickLimit|quick click limit|
+|bg|background of button|
